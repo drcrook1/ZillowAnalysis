@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[Homes]
+(
+	[zId] INT NOT NULL PRIMARY KEY, 
+    [Street] NVARCHAR(MAX) NOT NULL, 
+    [City] NVARCHAR(50) NOT NULL, 
+    [State] NCHAR(10) NOT NULL, 
+    [ZipCode] INT NOT NULL, 
+    [Latitude] DECIMAL NOT NULL, 
+    [Longitude] DECIMAL NOT NULL, 
+    [FIPSCounty] INT NOT NULL, 
+    [HomeType] NVARCHAR(50) NOT NULL, 
+    [TaxAssesmentYear] INT NOT NULL, 
+    [TaxAssessment] DECIMAL NOT NULL, 
+    [YearBuild] INT NOT NULL, 
+    [LotSize] INT NOT NULL, 
+    [HomeSize] INT NOT NULL, 
+    [NumBathrooms] DECIMAL NOT NULL, 
+    [NumBedrooms] INT NOT NULL, 
+    [TotalRooms] FLOAT NOT NULL, 
+    [ZillowEstimate] FLOAT NOT NULL, 
+    [ZillowLowEstimate] FLOAT NOT NULL, 
+    [ZillowHighEstimate] FLOAT NOT NULL, 
+    [LastSoldPrice] FLOAT NOT NULL, 
+    [LastSoldDate] DATETIME NOT NULL
+)
