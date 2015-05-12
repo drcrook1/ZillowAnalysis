@@ -5,7 +5,7 @@
 
 open System.Xml.Linq
 open FSharp.Data
-
+//Gets the XML
 [<Literal>]
 let zillowBasicSample = "http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?zws-id={YOURKEY}&zpid=48749425"
 let zillowBasicUrl = "http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?zws-id={YOURKEY}&zpid="

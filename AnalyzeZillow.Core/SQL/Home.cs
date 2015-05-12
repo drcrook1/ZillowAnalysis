@@ -5,7 +5,9 @@ namespace AnalyzeZillow.Core.SQL
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
-
+    /// <summary>
+    /// Entity Framework Generated Code
+    /// </summary>
     public partial class Home
     {
         [Key]

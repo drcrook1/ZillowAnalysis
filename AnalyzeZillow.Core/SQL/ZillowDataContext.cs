@@ -4,7 +4,10 @@ namespace AnalyzeZillow.Core.SQL
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
-
+    /// <summary>
+    /// Entity Framework Generated Code.  You will need to search in the app.config 
+    /// for ZillowDataContext to find the connection string and replace with your own.
+    /// </summary>
     public partial class ZillowDataContext : DbContext
     {
         public ZillowDataContext()

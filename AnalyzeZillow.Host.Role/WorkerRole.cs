@@ -16,10 +16,10 @@ namespace AnalyzeZillow.Host.Role
 {
     public class WorkerRole : RoleEntryPoint
     {
+        //Generated Code
         private readonly CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
         private readonly ManualResetEvent runCompleteEvent = new ManualResetEvent(false);
         
-
         public override void Run()
         {
             Trace.TraceInformation("AnalyzeZillow.Host.Role is running");
@@ -62,7 +62,7 @@ namespace AnalyzeZillow.Host.Role
 
             }
         }
-
+        //Generated Code
         public override bool OnStart()
         {
             // Set the maximum number of concurrent connections
@@ -77,7 +77,7 @@ namespace AnalyzeZillow.Host.Role
 
             return result;
         }
-
+        //Generated Code
         public override void OnStop()
         {
             Trace.TraceInformation("AnalyzeZillow.Host.Role is stopping");
