@@ -14,7 +14,7 @@ module Brains =
     type ZillowBasic = XmlProvider<zillowBasicSample>
     type ZillowDeep = XmlProvider<zillowDeepSample>
 
-    let GetHome (id:int, zillowApiKey:string) = 
+    let GetHome (id:int) = 
         let idString = id.ToString()
         let zBasic = ZillowBasic.Load(zillowBasicUrl + idString)
         let address = zBasic.Response.Address.Street.Replace(" ", "+")
